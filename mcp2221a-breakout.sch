@@ -346,23 +346,23 @@ $EndComp
 $Comp
 L Connector_Generic:Conn_01x06 J2
 U 1 1 60F0F94B
-P 4400 2600
-F 0 "J2" H 4350 3050 50  0000 L CNN
-F 1 "LEFT" H 4400 2950 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical" H 4400 2600 50  0001 C CNN
-F 3 "~" H 4400 2600 50  0001 C CNN
-	1    4400 2600
+P 3800 3350
+F 0 "J2" H 3750 3800 50  0000 L CNN
+F 1 "LEFT" H 3800 3700 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical" H 3800 3350 50  0001 C CNN
+F 3 "~" H 3800 3350 50  0001 C CNN
+	1    3800 3350
 	1    0    0    -1  
 $EndComp
 $Comp
 L Connector_Generic:Conn_01x06 J3
 U 1 1 60F13176
-P 4650 2700
-F 0 "J3" H 4650 2150 50  0000 C CNN
-F 1 "RIGHT" H 4650 2250 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical" H 4650 2700 50  0001 C CNN
-F 3 "~" H 4650 2700 50  0001 C CNN
-	1    4650 2700
+P 4050 3450
+F 0 "J3" H 4050 2900 50  0000 C CNN
+F 1 "RIGHT" H 4050 3000 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical" H 4050 3450 50  0001 C CNN
+F 3 "~" H 4050 3450 50  0001 C CNN
+	1    4050 3450
 	-1   0    0    1   
 $EndComp
 Text Label 1750 2200 0    50   ~ 0
@@ -381,65 +381,65 @@ Text Label 2500 1600 0    50   ~ 0
 SDA
 Text Label 2500 1700 0    50   ~ 0
 SCL
-Text Label 4200 2400 2    50   ~ 0
+Text Label 3600 3150 2    50   ~ 0
 GP0
-Text Label 4200 2500 2    50   ~ 0
+Text Label 3600 3250 2    50   ~ 0
 GP1
 Text Label 800  1600 2    50   ~ 0
 ~RST
-Text Label 4200 2600 2    50   ~ 0
+Text Label 3600 3350 2    50   ~ 0
 ~RST
-Text Label 4200 2700 2    50   ~ 0
+Text Label 3600 3450 2    50   ~ 0
 Rx
-Text Label 4200 2800 2    50   ~ 0
+Text Label 3600 3550 2    50   ~ 0
 Tx
-Text Label 4200 2900 2    50   ~ 0
+Text Label 3600 3650 2    50   ~ 0
 GP2
-Text Label 4850 2900 0    50   ~ 0
+Text Label 4250 3650 0    50   ~ 0
 GP3
-Text Label 4850 2800 0    50   ~ 0
+Text Label 4250 3550 0    50   ~ 0
 SDA
-Text Label 4850 2700 0    50   ~ 0
+Text Label 4250 3450 0    50   ~ 0
 SCL
 $Comp
 L power:VBUS #PWR013
 U 1 1 60F19852
-P 5000 2400
-F 0 "#PWR013" H 5000 2250 50  0001 C CNN
-F 1 "VBUS" H 5000 2550 50  0000 C CNN
-F 2 "" H 5000 2400 50  0001 C CNN
-F 3 "" H 5000 2400 50  0001 C CNN
-	1    5000 2400
+P 4400 3150
+F 0 "#PWR013" H 4400 3000 50  0001 C CNN
+F 1 "VBUS" H 4400 3300 50  0000 C CNN
+F 2 "" H 4400 3150 50  0001 C CNN
+F 3 "" H 4400 3150 50  0001 C CNN
+	1    4400 3150
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5000 2400 4850 2400
+	4400 3150 4250 3150
 $Comp
 L power:VDD #PWR014
 U 1 1 60F1B53F
-P 5100 2600
-F 0 "#PWR014" H 5100 2450 50  0001 C CNN
-F 1 "VDD" H 5115 2773 50  0000 C CNN
-F 2 "" H 5100 2600 50  0001 C CNN
-F 3 "" H 5100 2600 50  0001 C CNN
-	1    5100 2600
+P 4500 3350
+F 0 "#PWR014" H 4500 3200 50  0001 C CNN
+F 1 "VDD" H 4515 3523 50  0000 C CNN
+F 2 "" H 4500 3350 50  0001 C CNN
+F 3 "" H 4500 3350 50  0001 C CNN
+	1    4500 3350
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5100 2600 4850 2600
+	4500 3350 4250 3350
 $Comp
 L power:GND #PWR015
 U 1 1 60F1C9B9
-P 5300 2500
-F 0 "#PWR015" H 5300 2250 50  0001 C CNN
-F 1 "GND" H 5305 2327 50  0000 C CNN
-F 2 "" H 5300 2500 50  0001 C CNN
-F 3 "" H 5300 2500 50  0001 C CNN
-	1    5300 2500
+P 4700 3250
+F 0 "#PWR015" H 4700 3000 50  0001 C CNN
+F 1 "GND" H 4705 3077 50  0000 C CNN
+F 2 "" H 4700 3250 50  0001 C CNN
+F 3 "" H 4700 3250 50  0001 C CNN
+	1    4700 3250
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4850 2500 5300 2500
+	4250 3250 4700 3250
 $Comp
 L Device:LED_Small D2
 U 1 1 60EFFD63
@@ -661,14 +661,12 @@ Wire Notes Line
 Text Notes 4150 600  0    50   ~ 0
 3V3 LDO Regulator\n
 Wire Notes Line
-	2900 1950 5500 1950
+	2900 1950 4900 1950
 Wire Notes Line
-	5500 1950 5500 3300
+	4900 3800 2900 3800
 Wire Notes Line
-	5500 3300 2900 3300
-Wire Notes Line
-	2900 3300 2900 1950
-Text Notes 5050 2050 0    50   ~ 0
+	2900 3800 2900 1950
+Text Notes 4450 2050 0    50   ~ 0
 Connectors\n
 Wire Notes Line
 	500  3100 2000 3100
@@ -680,4 +678,6 @@ Wire Notes Line
 	500  4250 500  3100
 Text Notes 550  3200 0    50   ~ 0
 Mechanical
+Wire Notes Line
+	4900 1950 4900 3800
 $EndSCHEMATC
