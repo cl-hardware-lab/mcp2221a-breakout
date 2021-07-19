@@ -36,17 +36,6 @@ F 3 "~" H 3350 2500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Regulator_Linear:MCP1700-3302E_SOT23 U1
-U 1 1 60EED33E
-P 3650 1250
-F 0 "U1" H 3650 1492 50  0000 C CNN
-F 1 "MCP1700-3302E" H 3650 1401 50  0000 C CNN
-F 2 "Package_TO_SOT_SMD:SOT-23" H 3650 1475 50  0001 C CNN
-F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/20001826D.pdf" H 3650 1250 50  0001 C CNN
-	1    3650 1250
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:LED_Small D1
 U 1 1 60EEFBDE
 P 4600 1150
@@ -680,4 +669,15 @@ Text Notes 550  3200 0    50   ~ 0
 Mechanical
 Wire Notes Line
 	4900 1950 4900 3800
+$Comp
+L mcp2221a-breakout:MCP1812AT-033_TT U1
+U 1 1 60F5FC01
+P 3650 1250
+F 0 "U1" H 3650 1492 50  0000 C CNN
+F 1 "MCP1812AT-033_TT" H 3650 1401 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 3650 1475 50  0001 C CNN
+F 3 "https://www.farnell.com/datasheets/2722379.pdf" H 3650 1250 50  0001 C CNN
+	1    3650 1250
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
