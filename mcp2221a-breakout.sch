@@ -465,78 +465,56 @@ $EndComp
 $Comp
 L Mechanical:Fiducial FID3
 U 1 1 60F19612
-P 750 4000
-F 0 "FID3" H 835 4046 50  0000 L CNN
-F 1 "Fiducial" H 835 3955 50  0000 L CNN
-F 2 "Fiducial:Fiducial_1mm_Mask2mm" H 750 4000 50  0001 C CNN
-F 3 "~" H 750 4000 50  0001 C CNN
-	1    750  4000
-	1    0    0    -1  
-$EndComp
-$Comp
-L Mechanical:MountingHole H4
-U 1 1 60F1A4FC
-P 1250 4000
-F 0 "H4" H 1350 4046 50  0000 L CNN
-F 1 "MountingHole" H 1350 3955 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.7mm_M2.5_DIN965_Pad" H 1250 4000 50  0001 C CNN
-F 3 "~" H 1250 4000 50  0001 C CNN
-	1    1250 4000
+P 1500 3650
+F 0 "FID3" H 1585 3696 50  0000 L CNN
+F 1 "Fiducial" H 1585 3605 50  0000 L CNN
+F 2 "Fiducial:Fiducial_1mm_Mask2mm" H 1500 3650 50  0001 C CNN
+F 3 "~" H 1500 3650 50  0001 C CNN
+	1    1500 3650
 	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:Fiducial FID2
 U 1 1 60F1ACF7
-P 750 3800
-F 0 "FID2" H 835 3846 50  0000 L CNN
-F 1 "Fiducial" H 835 3755 50  0000 L CNN
-F 2 "Fiducial:Fiducial_1mm_Mask2mm" H 750 3800 50  0001 C CNN
-F 3 "~" H 750 3800 50  0001 C CNN
-	1    750  3800
+P 1500 3450
+F 0 "FID2" H 1585 3496 50  0000 L CNN
+F 1 "Fiducial" H 1585 3405 50  0000 L CNN
+F 2 "Fiducial:Fiducial_1mm_Mask2mm" H 1500 3450 50  0001 C CNN
+F 3 "~" H 1500 3450 50  0001 C CNN
+	1    1500 3450
 	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:Fiducial FID1
 U 1 1 60F1B0A7
-P 750 3600
-F 0 "FID1" H 835 3646 50  0000 L CNN
-F 1 "Fiducial" H 835 3555 50  0000 L CNN
-F 2 "Fiducial:Fiducial_1mm_Mask2mm" H 750 3600 50  0001 C CNN
-F 3 "~" H 750 3600 50  0001 C CNN
-	1    750  3600
-	1    0    0    -1  
-$EndComp
-$Comp
-L Mechanical:MountingHole H3
-U 1 1 60F1B3C8
-P 1250 3800
-F 0 "H3" H 1350 3846 50  0000 L CNN
-F 1 "MountingHole" H 1350 3755 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.7mm_M2.5_DIN965_Pad" H 1250 3800 50  0001 C CNN
-F 3 "~" H 1250 3800 50  0001 C CNN
-	1    1250 3800
+P 1500 3250
+F 0 "FID1" H 1585 3296 50  0000 L CNN
+F 1 "Fiducial" H 1585 3205 50  0000 L CNN
+F 2 "Fiducial:Fiducial_1mm_Mask2mm" H 1500 3250 50  0001 C CNN
+F 3 "~" H 1500 3250 50  0001 C CNN
+	1    1500 3250
 	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:MountingHole H2
 U 1 1 60F1B77D
-P 1250 3600
-F 0 "H2" H 1350 3646 50  0000 L CNN
-F 1 "MountingHole" H 1350 3555 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.7mm_M2.5_DIN965_Pad" H 1250 3600 50  0001 C CNN
-F 3 "~" H 1250 3600 50  0001 C CNN
-	1    1250 3600
+P 650 3600
+F 0 "H2" H 750 3646 50  0000 L CNN
+F 1 "MountingHole" H 750 3555 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.7mm_M2.5_DIN965_Pad" H 650 3600 50  0001 C CNN
+F 3 "~" H 650 3600 50  0001 C CNN
+	1    650  3600
 	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:MountingHole H1
 U 1 1 60F1BBEE
-P 1250 3400
-F 0 "H1" H 1350 3446 50  0000 L CNN
-F 1 "MountingHole" H 1350 3355 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.7mm_M2.5_DIN965_Pad" H 1250 3400 50  0001 C CNN
-F 3 "~" H 1250 3400 50  0001 C CNN
-	1    1250 3400
+P 650 3400
+F 0 "H1" H 750 3446 50  0000 L CNN
+F 1 "MountingHole" H 750 3355 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.7mm_M2.5_DIN965_Pad" H 650 3400 50  0001 C CNN
+F 3 "~" H 650 3400 50  0001 C CNN
+	1    650  3400
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -660,11 +638,11 @@ Connectors\n
 Wire Notes Line
 	500  3100 2000 3100
 Wire Notes Line
-	2000 3100 2000 4250
+	2000 3100 2000 3800
 Wire Notes Line
-	2000 4250 500  4250
+	2000 3800 500  3800
 Wire Notes Line
-	500  4250 500  3100
+	500  3800 500  3100
 Text Notes 550  3200 0    50   ~ 0
 Mechanical
 Wire Notes Line
