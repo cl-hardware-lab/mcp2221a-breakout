@@ -1,0 +1,36 @@
+{
+    // There can be C-like comments
+    "layout": {
+        "type": "grid",
+        "rows": 3,
+        "cols": 3,
+        "hspace": "2mm",
+        "vspace": "2mm",
+        "rotation": "0deg",
+        "alternation": "none",
+        "renamenet": "Board_{n}-{orig}",
+        "renameref": "{orig}"
+    },
+    "source": {
+        "type": "auto",
+        "tolerance": "5mm"
+    },
+    "tabs": {
+        "type": "fixed",
+	    "vwidth": "5mm",
+        "hwidth": "10mm",
+	    "vcount": 1,
+	    "hcount": 1
+    },
+    "cuts": {
+        "type": "vcuts"
+    },
+    "framing": {
+        "type": "frame",
+	    "space": "2mm",
+	    "width": "5mm"
+    },
+    "post": {
+	    "millradius": "1mm"
+    }
+}
